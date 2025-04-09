@@ -1,9 +1,5 @@
 package org.example.SobrescritaSobrecarga;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-
 import lombok.Getter;
 
 @Getter
@@ -19,5 +15,4 @@ public class Conta {
     public void depositar(Double valor) {
         this.saldo += valor - taxaOperacao;
     }
-
 }
